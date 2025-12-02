@@ -48,7 +48,7 @@ From there, you can explore repeaters builds and mounting options to expand cove
 
 ### Hardware
 * [Companion Nodes](meshcore/companion-nodes-antenna.md)
-* [Repeaters Nodes](meshcore/rak-based-repeaters-note.md)
+* [Repeaters Nodes](meshcore/rak-based-repeaters-node.md)
 * [Mounting Options](meshcore/repeater-mounting-options.md)
 
 ### Configuration

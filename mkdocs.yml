@@ -5,7 +5,7 @@ nav:
     - Hardware Overview: meshcore/hardware-overview.md
     - MeshCore FAQ: meshcore/meshcore-faq.md
     - Companion Nodes & Antenna Recommendations: meshcore/companion-nodes-antenna.md
-    - RAK-Based Repeaters Note: meshcore/rak-based-repeaters-note.md
+    - RAK-Based Repeaters Note: meshcore/rak-based-repeaters-node.md
     - Repeater Mounting Options: meshcore/repeater-mounting-options.md
     - Flashing a Companion Node: meshcore/flash-companion-node.md
     - Flashing a Repeater Node: meshcore/flash-repeater-node.md

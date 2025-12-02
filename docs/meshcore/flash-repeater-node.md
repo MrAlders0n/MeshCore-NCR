@@ -56,13 +56,13 @@ There are **two ways** to assign a new repeater ID:
 
 1. Reflash the repeater. Follow Flashing a Node from the beginning, and make sure to **Flash Erase** during the process.
 
-2. This will generate a new random private key and therefore a new public key and repeater ID. However, it could generate a duplicate again, so please verify afterwards that your new repeater ID is unique by checking it against the [Ottawa Repeater ID List](meshcore/repeaters-and-coverage.md).
+2. This will generate a new random private key and therefore a new public key and repeater ID. However, it could generate a duplicate again, so please verify afterwards that your new repeater ID is unique by checking it against the [Ottawa Repeater ID List](./repeaters-and-coverage.md).
 
 **Option 2 – Manually generate a private key (choose your own ID)**
 
 If you want to choose your repeater’s ID prefix manually:
 
-1. Visit the [Ottawa Repeater ID List](meshcore/repeaters-and-coverage.md) and select an unused 2-digit ID.
+1. Visit the [Ottawa Repeater ID List](./repeaters-and-coverage.md) and select an unused 2-digit ID.
 
 2. Go to [mc-keygen](https://gessaman.com/mc-keygen/) and enter that 2-digit ID into the “Repeater ID” field, then click **Generate Key**.
  

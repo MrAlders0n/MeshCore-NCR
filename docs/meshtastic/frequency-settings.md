@@ -168,6 +168,6 @@ If you’re travelling, you may need to reconfigure your frequency to join a dif
 * Prevents interference with other radio services.  
 
 ## Next Steps
-* Configure your node → [Meshtastic/Getting Started](meshtastic/getting-started.md)  
+* Configure your node → [Meshtastic/Getting Started](./getting-started.md)  
 * Join the Ottawa channel → Meshtastic/Join the Ottawa Channel  
 * Troubleshoot issues → Meshtastic/Common Issues and Fixes

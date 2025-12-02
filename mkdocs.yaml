@@ -1,0 +1,27 @@
+site_name: Ottawa MeshCore Wiki
+site_url: https://ottawamesh.ca
+repo_url: https://github.com/MrAlders0n/MeshCore-Ottawa
+repo_name: MrAlders0n/MeshCore-Ottawa
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  language: en
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Overview: getting-started/index.md
+      - Install a Companion: getting-started/install-companion.md
+  - Repeaters:
+      - Overview: repeaters/index.md
+      - Ottawa Backbone: repeaters/ottawa-backbone.md
+      - Solar Builds: repeaters/solar-builds.md
+  - MeshCore:
+      - Adverts Explained: meshcore/adverts.md
+      - MQTT Bridge: meshcore/mqtt-bridge.md

@@ -1,7 +1,6 @@
 # Welcome to Greater Ottawa Mesh Enthusiasts
 
-[**Join us on** <img src="images/Discord-Logo-Blurple.png" width="86" alt="Discord" style="vertical-align:middle;">](https://discord.gg/WSyNd8SfNr)
-
+[**Join us on Discord**](https://discord.gg/WSyNd8SfNr)
 
 ## About the Community
 

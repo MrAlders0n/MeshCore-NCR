@@ -1,6 +1,6 @@
 site_name: Ottawa Mesh
 nav:
-  - Home: home.md
+  - Home: index.md
   - Community:
       - Getting Involved: community/getting-involved.md
   - MeshCore:

@@ -1,5 +1,5 @@
 
-← Home
+← [Home](index.md)
 
 ## Overview
 MeshCore coverage in the Ottawa area is provided by a backbone of solar-powered repeaters.  

@@ -1,6 +1,3 @@
-
-← [Home](index.md)
-
 ## Overview
 MeshCore coverage in the Ottawa area is provided by a backbone of solar-powered repeaters.  
 Coverage can vary depending on height, line-of-sight paths, and local terrain, but the following areas generally have access:

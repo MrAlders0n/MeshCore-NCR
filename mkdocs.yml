@@ -33,10 +33,6 @@ nav:
       - Frequency Settings: meshtastic/frequency-settings.md
   - Resources:
       - Useful Links: resources/useful-links.md
-theme:
-  name: material
-  palette:
-    scheme: slate      # dark palette
 
 markdown_extensions:
   - attr_list
@@ -48,3 +44,5 @@ theme:
   name: material
   logo: assets/logo-GOME-mkdocs.png
   favicon: assets/favicon-GOME-mkdocs.png
+  palette:
+    scheme: slate      # dark palette

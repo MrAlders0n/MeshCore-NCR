@@ -2,27 +2,32 @@ site_name: Ottawa Mesh
 nav:
   - Home: index.md
   - MeshCore:
-    - Hardware Overview: meshcore/hardware-overview.md
-    - MeshCore FAQ: meshcore/meshcore-faq.md
-    - Companion Nodes & Antenna Recommendations: meshcore/companion-nodes-antenna.md
-    - RAK-Based Repeaters Note: meshcore/rak-based-repeaters-node.md
-    - Repeater Mounting Options: meshcore/repeater-mounting-options.md
-    - Flashing a Companion Node: meshcore/flash-companion-node.md
-    - Flashing a Repeater Node: meshcore/flash-repeater-node.md
-    - Configuring a Room Server: meshcore/configure-room-server.md
-    - Build Repeater · Solar RAK Unify Box: meshcore/build-repeater-solar-rak-unify-box.md
-    - RAK4631 Custom Display Firmware: meshcore/rak-custom-display-firmware.md
-    - Heltec V3 Wi-Fi Firmware: meshcore/heltec-v3-wifi-firmware.md
-    - Packet Capture · Overview: meshcore/packet-capture-overview.md
-    - Packet Capture · Companion Listener: meshcore/packet-capture-companion-listener.md
-    - Packet Capture · Standalone Repeater Listener: meshcore/packet-capture-standalone-repeater-listener.md
-    - Repeaters & Coverage: meshcore/repeaters-and-coverage.md
-    - MeshCore Frequency Settings: meshcore/frequency-settings-meshcore.md
-    - Wanted Repeater Locations: meshcore/wanted-repeater-locations.md
+      - General:
+          - MeshCore FAQ: meshcore/faq.md
+          - MeshCore Frequency Settings: meshcore/frequency-settings.md
+      - Ottawa Deployment:
+          - Repeaters & Coverage: meshcore/repeaters-and-coverage.md
+          - Wanted Repeater Locations: meshcore/wanted-repeater-locations.md
+      - Recommended Hardware:
+          - Antenna: meshcore/antenna-recommendations.md
+          - Companion Nodes: meshcore/companion-nodes-antenna.md
+          - Repeater Nodes:
+              - Overview: meshcore/rak-based-repeaters-node.md
+              - Repeater Mounting Options: meshcore/repeater-mounting-options.md
+              - 300mW Solar Repeater Build Guide: meshcore/build-repeater-solar-rak-unify-box.md
+      - Configuration:
+          - Flashing a Companion Node: meshcore/flash-companion-node.md
+          - Flashing a Repeater Node: meshcore/flash-repeater-node.md
+          - Configuring a Room Server: meshcore/configure-room-server.md
+          - RAK4631 Custom Display Firmware: meshcore/rak-custom-display-firmware.md
+          - Heltec V3 Wi-Fi Firmware: meshcore/heltec-v3-wifi-firmware.md
+      - Packet Capture:
+          - Packet Capture · Overview: meshcore/packet-capture-overview.md
+          - Packet Capture · Companion Listener: meshcore/packet-capture-companion-listener.md
+          - Packet Capture · Standalone Repeater Listener: meshcore/packet-capture-standalone-repeater-listener.md
   - Meshtastic:
-    - Getting Started: meshtastic/getting-started.md
-    - Frequency Settings: meshtastic/frequency-settings.md
-
+      - Getting Started: meshtastic/getting-started.md
+      - Frequency Settings: meshtastic/frequency-settings.md
 theme:
   name: material
   palette:

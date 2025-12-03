@@ -46,5 +46,5 @@ markdown_extensions:
 
 theme:
   name: material
-  logo: docs/assets/logo-GOME-mkdocs.png
-  favicon: docs/assets/favicon-GOME-mkdocs.png
+  logo: assets/logo-GOME-mkdocs.png
+  favicon: assets/favicon-GOME-mkdocs.png

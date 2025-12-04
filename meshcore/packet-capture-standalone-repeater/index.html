@@ -1679,7 +1679,7 @@ If you wish to run a full repeater, simply skip the step where repeat is disable
 <h2 id="firmware-installation">Firmware Installation<a class="headerlink" href="#firmware-installation" title="Permanent link">&para;</a></h2>
 <ol>
 <li>
-<p><strong>Download the HeltekV3 MQTT Repeater Firmware:</strong> <a href="https://drive.proton.me/urls/BAM30S5MJ0#u6tQH2mlsoZR">Link</a>  </p>
+<p><strong>Download the HeltekV3 MQTT Repeater Firmware:</strong> <a href="https://drive.proton.me/urls/BAM30S5MJ0#u6tQH2mlsoZR">Download Link</a>  </p>
 </li>
 <li>
 <p>Go to <a href="https://flasher.meshcore.co.uk/">MeshCore Flasher</a> and click <strong>HeltekV3</strong>  </p>
@@ -1730,68 +1730,51 @@ If you wish to run a full repeater, simply skip the step where repeat is disable
 <p>Open <a href="https://flasher.meshcore.co.uk/">MeshCore Flasher</a>, click <strong>Console</strong>, and select the serial device for your repeater.  </p>
 </li>
 <li>
-<p>Run the following command, replacing <code>&lt;PRIVATE-KEY&gt;</code> with your generated key:  </p>
+<p>Run the following command, replacing <code>PRIVATE-KEY</code> with your generated key:
+    <code>set prv.key &lt;PRIVATE-KEY&gt;</code></p>
+</li>
+<li>
+<p>Configure the repeater name using the Ottawa naming convention (<code>YOW_Location</code>):  </p>
+<p><code>text
+set name YOW_OldBarrhaven</code></p>
+</li>
+<li>
+<p>Configure the IATA Code for MQTT ingestion</p>
+<p><code>text
+set mqtt.iata YOW</code></p>
+</li>
+<li>
+<p>Disable repeat:  </p>
+<p><code>text
+set repeat off</code></p>
+</li>
+<li>
+<p>(Optional) Configure ownership info for the Packet Analyzer:<br />
+    You must have an account on <a href="https://analyzer.letsme.sh/">analyzer.letsme.sh</a> (login uses MeshCore Forum authentication). </p>
+<p><code>text
+ set mqtt.owner &lt;Companion-Public-Key&gt;
+ set mqtt.email &lt;MeshCore-Fourm-Email-Address&gt;</code></p>
 </li>
 </ol>
-<pre>
-set prv.key <PRIVATE-KEY>
-</pre>
-
-<ol>
-<li>Configure the repeater name using the Ottawa naming convention (<code>YOW_&lt;Location&gt;</code>):  </li>
-</ol>
-<pre>
-set name YOW_OldBarrhaven
-</pre>
-
-<ol>
-<li>Configure the IATA Code for MQTT ingestion</li>
-</ol>
-<pre>
-set mqtt.iata YOW
-</pre>
-
-<ol>
-<li>Disable repeat:  </li>
-</ol>
-<pre>
-set repeat off
-</pre>
-
-<ol>
-<li>(Optional) Configure ownership info for the Packet Analyzer:  </li>
-</ol>
-<div style="margin-left:1em;">
-You must have an account on [analyzer.letsme.sh](https://analyzer.letsme.sh/) (login uses MeshCore Forum authentication).  
-</div>
-<pre>
-set mqtt.owner <Companion-Public-Key>
-set mqtt.email <MeshCore-Fourm-Email-Address>
-</pre>
-
 <h2 id="configure-wi-fi-timezone">Configure Wi-Fi &amp; Timezone<a class="headerlink" href="#configure-wi-fi-timezone" title="Permanent link">&para;</a></h2>
 <ol>
-<li>Set Wi-Fi credentials:  </li>
+<li>
+<p>Set Wi-Fi credentials: </p>
+<p><code>text
+set wifi.ssid &lt;WIFI-NETWORK-NAME&gt;
+set wifi.pwd &lt;WIFI-PASSWORD&gt;</code></p>
+</li>
+<li>
+<p>Set timezone:  </p>
+<p><code>text
+set timezone America/Toronto</code></p>
+</li>
+<li>
+<p>Reboot the device: </p>
+<p><code>text
+reboot</code></p>
+</li>
 </ol>
-<pre>
-set wifi.ssid <WIFI-NETWORK-NAME>
-set wifi.pwd <WIFI-PASSWORD>
-</pre>
-
-<ol>
-<li>Set timezone:  </li>
-</ol>
-<pre>
-set timezone America/Toronto
-</pre>
-
-<ol>
-<li>Reboot the device:  </li>
-</ol>
-<pre>
-reboot
-</pre>
-
 <h2 id="validation">Validation<a class="headerlink" href="#validation" title="Permanent link">&para;</a></h2>
 <p>After the device reboots and connects to Wi-Fi, it should automatically start sending logs to the Analyzer MQTT broker.  </p>
 <ol>

@@ -1,97 +1,64 @@
+# Companion Nodes
+
+Companion nodes run dedicated companion firmware and operate as user endpoints on the MeshCore network.  
+Most companion nodes pair with your smartphone over BLE to provide access to the public channel, send and receive messages, and discover nearby repeaters.  
+
+There are also standalone companion nodes with built-in screens and input devices. These operate without a smartphone but still function as endpoints, not routers.  
+
+Companion nodes never perform routing — that role is reserved for repeaters.
+
 ## Pre-Built
-This is the easiest way to get started — buy a companion node, flash it with MeshCore, and join the mesh.  
 
-We still recommend you buy one of the antennas listed above, as most manufacturers ship poorly tuned antennas with their devices.  
+The easiest way to get started is to buy a companion node, flash it with MeshCore, and join the mesh.
 
-This is a **companion node** and requires a smartphone.  
-The MeshCore app connects to the node over Bluetooth (BLE) and is used to send and receive messages on the mesh.  
+We still recommend choosing one of the recommended antennas, since most devices ship with poorly tuned stock antennas.
 
-The following pre-built companion nodes are popular and widely available:  
+This is a **companion node** role and requires a smartphone.  
+The MeshCore app connects to the node over Bluetooth (BLE) and is used to send and receive messages on the mesh.
 
-{| class="wikitable"
-! Product
-! Notes
-! Link
-|-
-| ThinkNode M1
-| Compact device powered by the nRF52840 with a 1.54" screen and GPS support.  
-Designed as a ready-to-use companion node for reliable messaging and tracking.
-| [Link](https://www.elecrow.com/thinknode-m1-meshtastic-lora-signal-transceiver-powered-by-nrf52840-with-154-screen-support-gps.html)
-|-
-| LilyGO T-Echo
-| Compact device with onboard display and GPS.  
-Good option for those who want something ready to use with minimal setup.  
+The following pre-built companion nodes are popular and widely available:
 
-**Note:** Buy the non-flashed version and save yourself a few dollars — it’s easy to load MeshCore firmware using the web flasher.
-| [Link](https://lilygo.cc/products/t-echo-lilygo)
-|-
-| SenseCAP T1000-E
-| A slim card-style tracker device from SeeedStudio.  
-Portable and simple form factor (also IP65-rated) — easy to carry as a personal node.
+| Product            | Notes | Link |
+|--------------------|-------|------|
+| **ThinkNode M1** | Compact device powered by the nRF52840 with a 1.54" screen and GPS support. Designed as a ready-to-use companion node for reliable messaging and tracking. | [Elecrow](https://www.elecrow.com/thinknode-m1-meshtastic-lora-signal-transceiver-powered-by-nrf52840-with-154-screen-support-gps.html) |
+| **LilyGO T-Echo** | Compact device with onboard display and GPS. A solid ready-to-use option with minimal setup required. **Note:** Buy the non-flashed version; it’s cheaper and easy to flash MeshCore using the web flasher. | [LilyGO Store](https://lilygo.cc/products/t-echo-lilygo) |
+| **SenseCAP T1000-E** | Slim card-style tracker device from SeeedStudio. Portable and IP65-rated. **Note:** Range is more limited due to internal antennas. | [SeeedStudio](https://www.seeedstudio.com/SenseCAP-Card-Tracker-T1000-E-for-Meshtastic-p-5913.html) |
+| **RAK WisMesh Tag** | Rugged device with GPS, integrated antennas, 1000mAh battery, and IP66 enclosure. Pre-flashed firmware for instant use. **Note:** Range is more limited due to internal antennas. | [AliExpress](https://www.aliexpress.com/item/1005009754254701.html) |
 
-**Note:** The range on this device is more limited than other nodes because it uses built-in antennas.
-| [Link](https://www.seeedstudio.com/SenseCAP-Card-Tracker-T1000-E-for-Meshtastic-p-5913.html)
-|-
-| RAK WisMesh Tag
-| Rugged, compact device with integrated GPS and antennas.  
-1000mAh battery, IP66 waterproof/dustproof enclosure, and pre-flashed firmware for instant use.  
-Built for reliable off-grid tracking and messaging.
-
-**Note:** The range on this device is more limited than other nodes because it uses built-in antennas.
-| [Link](https://www.aliexpress.com/item/1005009754254701.html)
-|}
+---
 
 ## Build Your Own
-For hobbyists who like to source parts and assemble their own node, here’s an example Ottawa-friendly build (antenna not included here, see above recommendation):  
 
-We still recommend you buy one of the antennas listed above, as most manufacturers ship poorly tuned antennas with their devices.  
+For hobbyists who like to source parts and assemble their own node, here is an Ottawa-friendly example build (antenna not included; see recommendations above).
 
-This is a **companion node** and requires a smartphone.  
+We still recommend choosing one of the antennas listed above, since most devices ship with poorly tuned stock antennas.
 
-The MeshCore app connects to the node over Bluetooth (BLE) and is used to send and receive messages on the mesh.  
+This is a **companion node** role and requires a smartphone.  
+The MeshCore app connects to the node over Bluetooth (BLE) and is used to send and receive messages on the mesh.
 
-{| class="wikitable"
-! Item
-! Product Name
-! Cost (CAD)
-! Link
-|-
-| LoRa Board
-| Heltek T114 (Bundle: Screen Case)
-| $48.18 CAD
-| [Link](https://www.aliexpress.com/item/1005007916299029.html)
-|-
-| Battery
-| Makerfocus 3.7V 3000mAh Lipo
-| $10.00 CAD
-| [Link](https://www.makerfocus.com/products/makerfocus-3-7v-3000mah-lithium-rechargeable-battery-1s-3c-lipo-battery-pack-of-4?variant=44823607541998)
-|}
-*Approximate total cost (excluding antenna): $58.18 CAD*  
+### Example DIY Build
 
-Take a peek at [Alley Cat’s models](https://www.printables.com/@AlleyCat/models) — they’re excellent 3D-printable cases for custom companion node builds.
+| Item         | Product Name                  | Cost (CAD) | Link |
+|--------------|-------------------------------|------------|------|
+| **LoRa Board** | Heltek T114 (Bundle with screen & case) | $48.18 | [AliExpress](https://www.aliexpress.com/item/1005007916299029.html) |
+| **Battery**   | Makerfocus 3.7V 3000mAh LiPo | $10.00     | [MakerFocus](https://www.makerfocus.com/products/makerfocus-3-7v-3000mah-lithium-rechargeable-battery-1s-3c-lipo-battery-pack-of-4?variant=44823607541998) |
+
+*Approximate total cost (excluding antenna): **$58.18 CAD***  
+
+For 3D-printable cases, check out **[Alley Cat’s models](https://www.printables.com/@AlleyCat/models)** — they are excellent for custom companion node builds.
+
+---
 
 ## Standalone Nodes
+
 There are standalone devices such as the **T-Deck**, but we recommend starting with a companion node instead.  
-Standalone units are generally more expensive, their user interface is not as polished as the mobile app, and they still have quirks and limitations that can make them challenging for beginners.  
+Standalone units tend to be more expensive, the UI is not as smooth as the mobile app, and they still have quirks and firmware limitations that can make them challenging for beginners.
 
-We still recommend you buy one of the antennas listed above, as most manufacturers ship poorly tuned antennas with their devices.  
+We still recommend choosing one of the recommended antennas, since most devices ship with poorly tuned stock antennas.
 
-Below are some standalone devices available:  
+### Available Standalone Devices
 
-{| class="wikitable"
-! Product
-! Notes
-! Link
-|-
-| LilyGO T-LORA Pager
-| A compact standalone LoRa messaging device styled like a classic pager.  
-Useful for simple off-grid communication without needing a smartphone.
-| [Link](https://lilygo.cc/en-ca/products/t-lora-pager)
-|-
-| LilyGO T-Deck Plus
-| Updated version of the T-Deck with improved specs and refinements.  
-Designed with Meshtastic/MeshCore in mind for better performance and usability.  
-
-However, the built-in trackball is considered a huge letdown — many users find it frustrating to use.
-| [Link](https://lilygo.cc/products/t-deck-plus-meshtastic)
-|}
+| Product              | Notes | Link |
+|----------------------|-------|------|
+| **LilyGO T-LORA Pager** | A compact standalone LoRa messaging device styled like a classic pager. Useful for simple off-grid communication without needing a smartphone. | [LilyGO Store](https://lilygo.cc/en-ca/products/t-lora-pager) |
+| **LilyGO T-Deck Plus** | Updated version of the T-Deck with improved specs and refinements. Built with Meshtastic/MeshCore in mind.<br>**However:** the built-in trackball is a major downside and many users dislike it. | [LilyGO Store](https://lilygo.cc/products/t-deck-plus-meshtastic) |

@@ -72,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#pre-built" class="md-skip">
+        <a href="#companion-nodes" class="md-skip">
           Skip to content
         </a>
       
@@ -693,6 +693,8 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
@@ -735,6 +737,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -762,6 +766,23 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Build Your Own">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-diy-build" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example DIY Build
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -772,6 +793,23 @@
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Standalone Nodes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#available-standalone-devices" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Available Standalone Devices
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1481,6 +1519,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -1508,6 +1548,23 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Build Your Own">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-diy-build" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example DIY Build
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -1518,6 +1575,23 @@
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Standalone Nodes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#available-standalone-devices" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Available Standalone Devices
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1538,87 +1612,108 @@
 
 
 
-  <h1>Companion Nodes</h1>
-
+<h1 id="companion-nodes">Companion Nodes<a class="headerlink" href="#companion-nodes" title="Permanent link">&para;</a></h1>
+<p>Companion nodes run dedicated companion firmware and operate as user endpoints on the MeshCore network.<br />
+Most companion nodes pair with your smartphone over BLE to provide access to the public channel, send and receive messages, and discover nearby repeaters.  </p>
+<p>There are also standalone companion nodes with built-in screens and input devices. These operate without a smartphone but still function as endpoints, not routers.  </p>
+<p>Companion nodes never perform routing — that role is reserved for repeaters.</p>
 <h2 id="pre-built">Pre-Built<a class="headerlink" href="#pre-built" title="Permanent link">&para;</a></h2>
-<p>This is the easiest way to get started — buy a companion node, flash it with MeshCore, and join the mesh.  </p>
-<p>We still recommend you buy one of the antennas listed above, as most manufacturers ship poorly tuned antennas with their devices.  </p>
-<p>This is a <strong>companion node</strong> and requires a smartphone.<br />
-The MeshCore app connects to the node over Bluetooth (BLE) and is used to send and receive messages on the mesh.  </p>
-<p>The following pre-built companion nodes are popular and widely available:  </p>
-<p>{| class="wikitable"
-! Product
-! Notes
-! Link
-|-
-| ThinkNode M1
-| Compact device powered by the nRF52840 with a 1.54" screen and GPS support.<br />
-Designed as a ready-to-use companion node for reliable messaging and tracking.
-| <a href="https://www.elecrow.com/thinknode-m1-meshtastic-lora-signal-transceiver-powered-by-nrf52840-with-154-screen-support-gps.html">Link</a>
-|-
-| LilyGO T-Echo
-| Compact device with onboard display and GPS.<br />
-Good option for those who want something ready to use with minimal setup.  </p>
-<p><strong>Note:</strong> Buy the non-flashed version and save yourself a few dollars — it’s easy to load MeshCore firmware using the web flasher.
-| <a href="https://lilygo.cc/products/t-echo-lilygo">Link</a>
-|-
-| SenseCAP T1000-E
-| A slim card-style tracker device from SeeedStudio.<br />
-Portable and simple form factor (also IP65-rated) — easy to carry as a personal node.</p>
-<p><strong>Note:</strong> The range on this device is more limited than other nodes because it uses built-in antennas.
-| <a href="https://www.seeedstudio.com/SenseCAP-Card-Tracker-T1000-E-for-Meshtastic-p-5913.html">Link</a>
-|-
-| RAK WisMesh Tag
-| Rugged, compact device with integrated GPS and antennas.<br />
-1000mAh battery, IP66 waterproof/dustproof enclosure, and pre-flashed firmware for instant use.<br />
-Built for reliable off-grid tracking and messaging.</p>
-<p><strong>Note:</strong> The range on this device is more limited than other nodes because it uses built-in antennas.
-| <a href="https://www.aliexpress.com/item/1005009754254701.html">Link</a>
-|}</p>
+<p>The easiest way to get started is to buy a companion node, flash it with MeshCore, and join the mesh.</p>
+<p>We still recommend choosing one of the recommended antennas, since most devices ship with poorly tuned stock antennas.</p>
+<p>This is a <strong>companion node</strong> role and requires a smartphone.<br />
+The MeshCore app connects to the node over Bluetooth (BLE) and is used to send and receive messages on the mesh.</p>
+<p>The following pre-built companion nodes are popular and widely available:</p>
+<table>
+<thead>
+<tr>
+<th>Product</th>
+<th>Notes</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ThinkNode M1</strong></td>
+<td>Compact device powered by the nRF52840 with a 1.54" screen and GPS support. Designed as a ready-to-use companion node for reliable messaging and tracking.</td>
+<td><a href="https://www.elecrow.com/thinknode-m1-meshtastic-lora-signal-transceiver-powered-by-nrf52840-with-154-screen-support-gps.html">Elecrow</a></td>
+</tr>
+<tr>
+<td><strong>LilyGO T-Echo</strong></td>
+<td>Compact device with onboard display and GPS. A solid ready-to-use option with minimal setup required. <strong>Note:</strong> Buy the non-flashed version; it’s cheaper and easy to flash MeshCore using the web flasher.</td>
+<td><a href="https://lilygo.cc/products/t-echo-lilygo">LilyGO Store</a></td>
+</tr>
+<tr>
+<td><strong>SenseCAP T1000-E</strong></td>
+<td>Slim card-style tracker device from SeeedStudio. Portable and IP65-rated. <strong>Note:</strong> Range is more limited due to internal antennas.</td>
+<td><a href="https://www.seeedstudio.com/SenseCAP-Card-Tracker-T1000-E-for-Meshtastic-p-5913.html">SeeedStudio</a></td>
+</tr>
+<tr>
+<td><strong>RAK WisMesh Tag</strong></td>
+<td>Rugged device with GPS, integrated antennas, 1000mAh battery, and IP66 enclosure. Pre-flashed firmware for instant use. <strong>Note:</strong> Range is more limited due to internal antennas.</td>
+<td><a href="https://www.aliexpress.com/item/1005009754254701.html">AliExpress</a></td>
+</tr>
+</tbody>
+</table>
+<hr />
 <h2 id="build-your-own">Build Your Own<a class="headerlink" href="#build-your-own" title="Permanent link">&para;</a></h2>
-<p>For hobbyists who like to source parts and assemble their own node, here’s an example Ottawa-friendly build (antenna not included here, see above recommendation):  </p>
-<p>We still recommend you buy one of the antennas listed above, as most manufacturers ship poorly tuned antennas with their devices.  </p>
-<p>This is a <strong>companion node</strong> and requires a smartphone.  </p>
-<p>The MeshCore app connects to the node over Bluetooth (BLE) and is used to send and receive messages on the mesh.  </p>
-<p>{| class="wikitable"
-! Item
-! Product Name
-! Cost (CAD)
-! Link
-|-
-| LoRa Board
-| Heltek T114 (Bundle: Screen Case)
-| $48.18 CAD
-| <a href="https://www.aliexpress.com/item/1005007916299029.html">Link</a>
-|-
-| Battery
-| Makerfocus 3.7V 3000mAh Lipo
-| $10.00 CAD
-| <a href="https://www.makerfocus.com/products/makerfocus-3-7v-3000mah-lithium-rechargeable-battery-1s-3c-lipo-battery-pack-of-4?variant=44823607541998">Link</a>
-|}
-<em>Approximate total cost (excluding antenna): $58.18 CAD</em>  </p>
-<p>Take a peek at <a href="https://www.printables.com/@AlleyCat/models">Alley Cat’s models</a> — they’re excellent 3D-printable cases for custom companion node builds.</p>
+<p>For hobbyists who like to source parts and assemble their own node, here is an Ottawa-friendly example build (antenna not included; see recommendations above).</p>
+<p>We still recommend choosing one of the antennas listed above, since most devices ship with poorly tuned stock antennas.</p>
+<p>This is a <strong>companion node</strong> role and requires a smartphone.<br />
+The MeshCore app connects to the node over Bluetooth (BLE) and is used to send and receive messages on the mesh.</p>
+<h3 id="example-diy-build">Example DIY Build<a class="headerlink" href="#example-diy-build" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Product Name</th>
+<th>Cost (CAD)</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>LoRa Board</strong></td>
+<td>Heltek T114 (Bundle with screen &amp; case)</td>
+<td>$48.18</td>
+<td><a href="https://www.aliexpress.com/item/1005007916299029.html">AliExpress</a></td>
+</tr>
+<tr>
+<td><strong>Battery</strong></td>
+<td>Makerfocus 3.7V 3000mAh LiPo</td>
+<td>$10.00</td>
+<td><a href="https://www.makerfocus.com/products/makerfocus-3-7v-3000mah-lithium-rechargeable-battery-1s-3c-lipo-battery-pack-of-4?variant=44823607541998">MakerFocus</a></td>
+</tr>
+</tbody>
+</table>
+<p><em>Approximate total cost (excluding antenna): </em><em>$58.18 CAD</em>**  </p>
+<p>For 3D-printable cases, check out <strong><a href="https://www.printables.com/@AlleyCat/models">Alley Cat’s models</a></strong> — they are excellent for custom companion node builds.</p>
+<hr />
 <h2 id="standalone-nodes">Standalone Nodes<a class="headerlink" href="#standalone-nodes" title="Permanent link">&para;</a></h2>
 <p>There are standalone devices such as the <strong>T-Deck</strong>, but we recommend starting with a companion node instead.<br />
-Standalone units are generally more expensive, their user interface is not as polished as the mobile app, and they still have quirks and limitations that can make them challenging for beginners.  </p>
-<p>We still recommend you buy one of the antennas listed above, as most manufacturers ship poorly tuned antennas with their devices.  </p>
-<p>Below are some standalone devices available:  </p>
-<p>{| class="wikitable"
-! Product
-! Notes
-! Link
-|-
-| LilyGO T-LORA Pager
-| A compact standalone LoRa messaging device styled like a classic pager.<br />
-Useful for simple off-grid communication without needing a smartphone.
-| <a href="https://lilygo.cc/en-ca/products/t-lora-pager">Link</a>
-|-
-| LilyGO T-Deck Plus
-| Updated version of the T-Deck with improved specs and refinements.<br />
-Designed with Meshtastic/MeshCore in mind for better performance and usability.  </p>
-<p>However, the built-in trackball is considered a huge letdown — many users find it frustrating to use.
-| <a href="https://lilygo.cc/products/t-deck-plus-meshtastic">Link</a>
-|}</p>
+Standalone units tend to be more expensive, the UI is not as smooth as the mobile app, and they still have quirks and firmware limitations that can make them challenging for beginners.</p>
+<p>We still recommend choosing one of the recommended antennas, since most devices ship with poorly tuned stock antennas.</p>
+<h3 id="available-standalone-devices">Available Standalone Devices<a class="headerlink" href="#available-standalone-devices" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Product</th>
+<th>Notes</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>LilyGO T-LORA Pager</strong></td>
+<td>A compact standalone LoRa messaging device styled like a classic pager. Useful for simple off-grid communication without needing a smartphone.</td>
+<td><a href="https://lilygo.cc/en-ca/products/t-lora-pager">LilyGO Store</a></td>
+</tr>
+<tr>
+<td><strong>LilyGO T-Deck Plus</strong></td>
+<td>Updated version of the T-Deck with improved specs and refinements. Built with Meshtastic/MeshCore in mind.<br><strong>However:</strong> the built-in trackball is a major downside and many users dislike it.</td>
+<td><a href="https://lilygo.cc/products/t-deck-plus-meshtastic">LilyGO Store</a></td>
+</tr>
+</tbody>
+</table>
 
 
 

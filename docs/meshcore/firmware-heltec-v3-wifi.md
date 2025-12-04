@@ -61,17 +61,17 @@ Your SSID and password are embedded at compile time, so do **not** share compile
 
 2. Locate the `env:Heltec_v3_companion_radio_wifi` section and update it with your SSID and password:
 
-    ```ini
+    ```yaml
     [env:Heltec_v3_companion_radio_wifi]
     extends = Heltec_lora32_v3
     build_flags =
-      ${Heltec_lora32_v3.build_flags}
-      -D MAX_CONTACTS=100
-      -D MAX_GROUP_CHANNELS=8
-      -D DISPLAY_CLASS=SSD1306Display
-      -D WIFI_DEBUG_LOGGING=1
-      -D WIFI_SSID="<<SSID>>"
-      -D WIFI_PWD="<<WIFI-PASS>>"
+        ${Heltec_lora32_v3.build_flags}
+        -D MAX_CONTACTS=100
+        -D MAX_GROUP_CHANNELS=8
+        -D DISPLAY_CLASS=SSD1306Display
+        -D WIFI_DEBUG_LOGGING=1
+        -D WIFI_SSID="<<SSID>>"
+        -D WIFI_PWD="<<WIFI-PASS>>"
     ```
 
 3. Save and exit the editor.
@@ -130,4 +130,3 @@ Your SSID and password are embedded at compile time, so do **not** share compile
     - Expect instability  
     - Features may be incomplete  
     - Do not deploy this build as a critical node on the mesh  
-

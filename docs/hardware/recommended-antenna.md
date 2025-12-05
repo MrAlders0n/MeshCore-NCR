@@ -23,4 +23,4 @@ If you want something larger and higher-performing, we’ve tested the Seeed 130
 | Product                     | Connector | Cost (CAD) | Link |
 |-----------------------------|-----------|------------|------|
 | Alfa AOA-915-5ACM           | N-Type    | $34.99     | [Amazon](https://a.co/d/ieEIQpy) |
-| Seeed Studio RF Explorer 902-928MHz 8dBi; 1300mm | N-Type | $110 | https://www.mouser.ca/ProductDetail/Seeed-Studio/318020693?qs=By6Nw2ByBD0kjpJjgHd0aQ%3D%3D |
+| Seeed Studio RF Explorer 902-928MHz 8dBi; 1300mm | N-Type | $110 | [Mouser](https://www.mouser.ca/ProductDetail/Seeed-Studio/318020693?qs=By6Nw2ByBD0kjpJjgHd0aQ%3D%3D) |

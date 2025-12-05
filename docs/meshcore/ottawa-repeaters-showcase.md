@@ -59,7 +59,7 @@ Photos, technical notes, and installation details are provided for each site.
 - Among the highest repeater installations in Ottawa  
 
 *Photo:*  
-![CAN](./images/repeater-showcase-CAN_1.jpg){ width="300" }
+![CAN](./images/repeater-showcase-CAN_1.jpg){ width="100" }
 
 ---
 
@@ -143,10 +143,10 @@ Photos, technical notes, and installation details are provided for each site.
 
 *Photos:*  
 
-![VA3TEC](./images/repeater-showcase-VA3TEC_1.jpg){ width="300" }
-![VA3TEC](./images/repeater-showcase-VA3TEC_2.jpg){ width="300" }
-![VA3TEC](./images/repeater-showcase-VA3TEC_3.jpg){ width="300" }
-![VA3TEC](./images/repeater-showcase-VA3TEC_4.jpg){ width="300" }
+![VA3TEC](./images/repeater-showcase-VA3TEC_1.jpg){ width="100" }
+![VA3TEC](./images/repeater-showcase-VA3TEC_2.jpg){ width="100" }
+![VA3TEC](./images/repeater-showcase-VA3TEC_3.jpg){ width="100" }
+![VA3TEC](./images/repeater-showcase-VA3TEC_4.jpg){ width="100" }
 
 ---
 

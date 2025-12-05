@@ -49,8 +49,8 @@ markdown_extensions:
 plugins:
   - search
   - macros
-  - glightbox
-        touchNavigation: true
+  - glightbox:
+      touchNavigation: true
 
 theme:
   name: material

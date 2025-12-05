@@ -1,8 +1,16 @@
 site_name: Ottawa Mesh
+
 nav:
   - Home: index.md
   - Community:
       - Getting Involved: community/getting-involved.md
+  - Recommended Hardware:
+      - Antenna: hardware/recommended-antenna.md
+      - Companion Nodes: hardware/recommended-companions.md
+      - Repeater Nodes:
+          - Overview: hardware/recommended-repeaters.md
+          - Repeater Mounting Options: hardware/repeater-mounting-options.md
+          - 300mW Solar Repeater Build Guide: hardware/repeater-solar-300mw-diy-build.md
   - MeshCore:
       - General:
           - MeshCore FAQ & How-To: meshcore/general-faq-howto.md
@@ -11,13 +19,6 @@ nav:
       - Ottawa Deployment:
           - Repeaters & Coverage: meshcore/repeaters-and-coverage.md
           - Wanted Repeater Locations: meshcore/wanted-repeater-locations.md
-      - Recommended Hardware:
-          - Antenna: meshcore/recommended-antenna.md
-          - Companion Nodes: meshcore/recommended-companions.md
-          - Repeater Nodes:
-              - Overview: meshcore/recommended-repeaters.md
-              - Repeater Mounting Options: meshcore/repeater-mounting-options.md
-              - 300mW Solar Repeater Build Guide: meshcore/repeater-solar-300mw-diy-build.md
       - Configuration:
           - Flashing a Companion: meshcore/flash-companion.md
           - Flashing a Repeater: meshcore/flash-repeater.md
@@ -28,9 +29,11 @@ nav:
           - Packet Capture · Overview: meshcore/packet-capture-overview.md
           - Packet Capture · Companion Listener: meshcore/packet-capture-companion-listener.md
           - Packet Capture · Standalone Repeater Listener: meshcore/packet-capture-standalone-repeater.md
+
   - Meshtastic:
       - Getting Started: meshtastic/getting-started.md
       - Frequency Settings: meshtastic/frequency-settings.md
+
   - Resources:
       - Useful Links: resources/useful-links.md
 
@@ -45,7 +48,7 @@ theme:
   logo: assets/logo-GOME-mkdocs.png
   favicon: assets/favicon-GOME-mkdocs.png
   palette:
-    scheme: slate      # dark palette
+    scheme: slate
 
 extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js

@@ -54,7 +54,7 @@ If you wish to run a full repeater, simply skip the step where repeat is disable
 
 ## Configure Device Identity
 
-1. Visit [Ottawa Repeater ID List](./repeaters-and-coverage.md) and choose an unused 2-digit ID.  
+1. Visit [Ottawa Repeater ID List](./ottawa-repeaters.md) and choose an unused 2-digit ID.  
 
 2. Open [mc-keygen](https://gessaman.com/mc-keygen/) and enter that ID into the **Repeater ID** field, then click **Generate Key**.  
 

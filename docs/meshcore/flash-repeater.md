@@ -45,7 +45,7 @@ If flashing fails after erasing, refresh the page, click **Enter DFU Mode** agai
 
 1. Using Google Chrome, open the repeater configuration tool:  
    **<https://config.meshcore.dev>**
-2. After connecting, check the **[Ottawa Repeater ID List](./repeaters-and-coverage.md)** to ensure your repeater ID is unique.
+2. After connecting, check the **[Ottawa Repeater ID List](./ottawa-repeaters.md)** to ensure your repeater ID is unique.
    - Repeater IDs come from the **first two characters of the public key**.  
    - Duplicate IDs cause conflicts.  
    - Developers are working on a long-term fix, but for now each repeater should use a unique ID.
@@ -58,7 +58,7 @@ There are **two ways** to assign a new repeater ID, we recommend option 1 as it 
 
 ### Option 1 — Manually Generate a Private Key (choose your own ID)
 
-1. Go to the **[Ottawa Repeater ID List](./repeaters-and-coverage.md)** and pick an unused 2-digit ID.  
+1. Go to the **[Ottawa Repeater ID List](./ottawa-repeaters.md)** and pick an unused 2-digit ID.  
 2. Visit **mc-keygen**: <https://gessaman.com/mc-keygen/>  
 3. Enter your chosen 2-digit ID, then click **Generate Key**.  
 4. Copy the **Private Key** from the output.  
@@ -74,7 +74,7 @@ It will now use this private key, and the public key will match your chosen ID.
 1. Reflash the repeater and ensure **Erase Flash** is used.  
 2. A new private/public keypair will be generated.  
 3. After flashing, verify that the new ID is not in use by checking:  
-   **[Ottawa Repeater ID List](./repeaters-and-coverage.md)**
+   **[Ottawa Repeater ID List](./ottawa-repeaters.md)**
 
 ---
 

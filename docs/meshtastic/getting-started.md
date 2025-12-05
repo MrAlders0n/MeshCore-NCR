@@ -1,5 +1,7 @@
 # Getting Started with Meshtastic
 
+**NOTE:** The Meshtastic documentation is still a work in progress and isn’t being actively maintained. If you’re interested in helping write or update it, please contact MrAlders0n.
+
 Meshtastic is a peer-to-peer LoRa mesh where every node can forward packets.
 This guide will help you flash Meshtastic firmware onto your device and configure it for use in the local Ottawa mesh.
 

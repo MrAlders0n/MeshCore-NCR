@@ -15,7 +15,7 @@ Photos, technical notes, and installation details are provided for each site.
 **Height:** ~15 m  
 
 *Photo:*  
-![MAY_SOLAR_R](./images/too_solar_r_placeholder.jpg)
+<!-- ![MAY_SOLAR_R](./images/too_solar_r_placeholder.jpg) -->
 
 **Notes:**  
 - Serves Old Ottawa South, Carleton University, Riverside, and parts of downtown  
@@ -32,7 +32,7 @@ Photos, technical notes, and installation details are provided for each site.
 **Height:** ~31 m  
 
 *Photo:*  
-![TOO_SOLAR_R](./images/too_solar_r_placeholder.jpg)
+<!-- ![TOO_SOLAR_R](./images/too_solar_r_placeholder.jpg)-->
 
 **Notes:**  
 - Extends the mesh into Ashton, Beckwith, Munster, Kemptville, Carleton Place, and nearby rural areas  
@@ -48,7 +48,7 @@ Photos, technical notes, and installation details are provided for each site.
 **Height:** ~45 m  
 
 *Photo:*  
-![CAN_SOLAR_R](./images/can_solar_r_placeholder.jpg)
+<!-- ![CAN_SOLAR_R](./images/can_solar_r_placeholder.jpg)-->
 
 **Notes:**  
 - One of the most far-reaching repeaters in the region  
@@ -65,7 +65,7 @@ Photos, technical notes, and installation details are provided for each site.
 **Height:** ~18 m  
 
 *Photo:*  
-![phr5](./images/phr5_placeholder.jpg)
+<!-- ![phr5](./images/phr5_placeholder.jpg)-->
 
 **Notes:**  
 - Extends mesh coverage south from Barrhaven into rural Kemptville  
@@ -81,7 +81,7 @@ Photos, technical notes, and installation details are provided for each site.
 **Height:** ~14 m  
 
 *Photo:*  
-![GD-MrA_R3](./images/gd_mra_r3_placeholder.jpg)
+<!-- ![GD-MrA_R3](./images/gd_mra_r3_placeholder.jpg)-->
 
 **Notes:**  
 - Links into CAN and TOO, providing strong regional coverage  
@@ -97,7 +97,7 @@ Photos, technical notes, and installation details are provided for each site.
 **Height:** ~15 m  
 
 *Photo:*  
-![e7her.nod3](./images/e7her_nod3_placeholder.jpg)
+<!-- ![e7her.nod3](./images/e7her_nod3_placeholder.jpg)-->
 
 **Notes:**  
 - Connects to CAN and TOO while strengthening Kanata and Stittsville coverage  
@@ -111,9 +111,9 @@ Photos, technical notes, and installation details are provided for each site.
 **Role:** East-end Wide Area Repeaters  
 
 *Photos:*  
-- ![AlxR1](./images/alxr1_placeholder.jpg)  
-- ![AlxR2](./images/alxr2_placeholder.jpg)  
-- ![AlxR4](./images/alxr4_placeholder.jpg)
+<!-- - ![AlxR1](./images/alxr1_placeholder.jpg)  -->
+<!-- - ![AlxR2](./images/alxr2_placeholder.jpg)  -->
+<!-- - ![AlxR4](./images/alxr4_placeholder.jpg)  -->
 
 **Notes:**  
 - One of the strongest and most stable backbone clusters in the east end  
@@ -130,7 +130,7 @@ Photos, technical notes, and installation details are provided for each site.
 **Height:** ~12 m  
 
 *Photo:*  
-![NEW_SOLAR_R](./images/new_solar_r_placeholder.jpg)
+<!-- ![NEW_SOLAR_R](./images/new_solar_r_placeholder.jpg)-->
 
 **Notes:**  
 - Links to the Alx cluster while providing coverage into Orleans, Buckingham, and nearby regions  

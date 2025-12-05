@@ -43,6 +43,10 @@ markdown_extensions:
   - toc:
       permalink: true
 
+plugins:
+  - search
+  - macros
+
 theme:
   name: material
   logo: assets/logo-GOME-mkdocs.png

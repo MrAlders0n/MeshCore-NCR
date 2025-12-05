@@ -65,7 +65,9 @@ Photos, technical notes, and installation details are provided for each site.
 
 *Photos:*
 
-![CAN_5](./images/repeater-showcase-CAN_5.jpg) ![CAN_4](./images/repeater-showcase-CAN_4.jpg)
+![CAN_5](./images/repeater-showcase-CAN_5.jpg) { width=50% } ![CAN_4](./images/repeater-showcase-CAN_4.jpg) { width=50% }
+
+![CAN_5](./images/repeater-showcase-CAN_5.jpg) { height=50% } ![CAN_4](./images/repeater-showcase-CAN_4.jpg) { height=50% }
 
 ---
 

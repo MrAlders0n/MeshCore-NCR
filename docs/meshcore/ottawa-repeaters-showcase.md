@@ -64,9 +64,9 @@ Photos, technical notes, and installation details are provided for each site.
 - Among the highest repeater installations in Ottawa  
 
 *Photos:*  
-![CAN](./images/repeater-showcase-CAN_3.jpg){ width="300" }
-![CAN](./images/repeater-showcase-CAN_4.jpg){ width="300" }
-![CAN](./images/repeater-showcase-CAN_1.jpg){ width="300" }
+![CAN_3](./images/repeater-showcase-CAN_3.jpg){ width="300" }
+![CAN_4](./images/repeater-showcase-CAN_4.jpg){ width="300" }
+![CAN_1](./images/repeater-showcase-CAN_1.jpg){ width="300" }
 
 ---
 

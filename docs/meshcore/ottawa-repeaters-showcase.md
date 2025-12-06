@@ -106,24 +106,6 @@ Photos, technical notes, and installation details are provided for each site.
 
 ---
 
-## e7her.nod3  
-
-**Location:** Katimavik  
-**Type:** Solar-powered elevated tree-mounted repeater  
-**Role:** Kanata Regional Repeater  
-**Antenna:** Alfa 5.8 dBi  
-**Height:** ~15 m  
-
-**Notes:**  
-
-- Connects to CAN and TOO while strengthening Kanata and Stittsville coverage  
-- Often acts as a relay point for new west-end installs  
-
-*Photo:*  
-![e7her.nod3](./images/repeater-showcase-e7her.nod3_cropped.png)
-
----
-
 ## Alx (AlxR1 / AlxR2 / AlxR4)  
 
 **Location:** Orleans / Gloucester  

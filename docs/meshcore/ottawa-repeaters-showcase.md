@@ -65,12 +65,9 @@ Photos, technical notes, and installation details are provided for each site.
 
 *Photos:*
 
-<table>
-  <tr>
-    <td><img src="/meshcore/images/repeater-showcase-CAN_5.jpg" width="300"></td>
-    <td><img src="/meshcore/images/repeater-showcase-CAN_4.jpg" width="300"></td>
-  </tr>
-</table>
+| | |
+|---|---|
+| ![CAN_5](./images/repeater-showcase-CAN_5.jpg){width=300} | ![CAN_4](./images/repeater-showcase-CAN_4.jpg){width=300} |
 
 ---
 

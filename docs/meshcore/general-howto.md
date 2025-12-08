@@ -56,14 +56,14 @@ These instructions use the MeshCore mobile app and apply to both new and experie
 ## How to Trace Route to a Node (2+ Hops)
 
 1. Open the app and connect.
-2. Tap the **three dots**.  
-   ![](images/MeshCore_TraceRoute1.png){ width="300" }
-3. Tap **Tools**.  
-   ![](images/MeshCore_TraceRoute2.png){ width="300" }
-4. Tap **Trace Path - Manual**.  
-   ![](images/MeshCore_TraceRoute3.png){ width="300" }
-5. Tap the **plus button**.  
-   ![](images/MeshCore_TraceRoute4.png){ width="300" }
+2. Tap the **three dots**.
+   ![](./images/MeshCore_TraceRoute1.png)
+3. Tap **Tools**.
+   ![](./images/MeshCore_TraceRoute2.png)
+4. Tap **Trace Path - Manual**.
+   ![](./images/MeshCore_TraceRoute3.png)
+5. Tap the **plus button**.
+   ![](./images/MeshCore_TraceRoute4.png)
 
 6. Select repeaters **in order**:
    - Choose the **forward path**  
@@ -94,14 +94,14 @@ When you send a message out, the packet travels through the airwaves, hits a nea
 
 1. Send a message in the public channel.
 
-2. When the app shows **Heard X repeats** under your message, press and hold the message.
-   ![](images/MeshCore_HeardRepeats_Step1.png){ width="300" }
+2. When the app shows **Heard X repeats** under your message, press and hold the message.   
+   ![](images/MeshCore_HeardRepeats_Step1.png)
 
-3. Tap **Heard Repeats**.
-   ![](images/MeshCore_HeardRepeats_Step2.png){ width="300" }
+3. Tap **Heard Repeats**.   
+   ![](images/MeshCore_HeardRepeats_Step2.png)
 
-4. You’ll see a list of every repeater your companion heard repeating that packet.
-   ![](images/MeshCore_HeardRepeats_Step3.png){ width="300" }
+4. You’ll see a list of every repeater your companion heard repeating that packet.   
+   ![](images/MeshCore_HeardRepeats_Step3.png)
 
 5. Tap a repeater in the list to view the path the repeated packet took to get back to you. See Below for the types of repeats you will see.
 

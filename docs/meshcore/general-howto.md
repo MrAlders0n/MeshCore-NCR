@@ -85,10 +85,11 @@ These instructions use the MeshCore mobile app and apply to both new and experie
 
 In the MeshCore app you can generally see if a repeater heard you message you sent in a channel.
 
-When you send a message out, the packet travels through the airwaves, hits a nearby repeater and it then repeats your packet out. If your companion is within receiving range and receives the repeated packet it will be counted as a "heard repeat". There are cases where your companion could miss the heard repeat. Example of this are:
+When you send a message out, the packet travels through the airwaves, hits a nearby repeater and it then repeats your packet out. If your companion is within receiving range and receives the repeated packet it will be counted as a "heard repeat". There are cases where your companion could miss the heard repeat. Examples of this are:
 
--Your packet makes it to the repeater, but the repeated packet dosnt make it back to your companion.
--If you're using a 1w companion, and the repeater that hears you is a 0.3w. You can send further then it. so while your packet may make it to the repeater, when it repeats your packet its possible youre too far away to receive it.
+- Your packet makes it to the repeater, but the repeated packet dosnt make it back to your companion.
+
+- If you're using a 1w companion, and the repeater that hears you is a 0.3w. You can send further then it. so while your packet may make it to the repeater, when it repeats your packet its possible youre too far away to receive it.
 
 ## How to Check Heard Repeats
 

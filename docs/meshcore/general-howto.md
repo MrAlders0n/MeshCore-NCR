@@ -95,16 +95,13 @@ When you send a message out, the packet travels through the airwaves, hits a nea
 1. Send a message in the public channel.
 
 2. When the app shows **Heard X repeats** under your message, press and hold the message.
-
-![](images/MeshCore_HeardRepeats_Step1.png){ width="300" }
+   ![](images/MeshCore_HeardRepeats_Step1.png){ width="300" }
 
 3. Tap **Heard Repeats**.
-
-![](images/MeshCore_HeardRepeats_Step2.png){ width="300" }
+   ![](images/MeshCore_HeardRepeats_Step2.png){ width="300" }
 
 4. You’ll see a list of every repeater your companion heard repeating that packet.
-
-![](images/MeshCore_HeardRepeats_Step3.png){ width="300" }
+   ![](images/MeshCore_HeardRepeats_Step3.png){ width="300" }
 
 5. Tap a repeater in the list to view the path the repeated packet took to get back to you. See Below for the types of repeats you will see.
 
@@ -121,10 +118,10 @@ When you send a message out, the packet travels through the airwaves, hits a nea
 Below is an example of what a direct heard packet looks like:
 
 Companion View
-![](images/MeshCore_HeardRepeats_Direct.png){ width="300" }
+   ![](images/MeshCore_HeardRepeats_Direct.png){ width="300" }
 
 Diagram Explanation
-![](images/MeshCore_HeardRepeats_Direct.png){ width="300" }
+   ![](images/MeshCore_HeardRepeats_Direct.png){ width="300" }
 
 ---
 
@@ -133,7 +130,7 @@ Diagram Explanation
 Below is an example of what it looks like when one repeater hears your message, repeats it, and then your companion hears a second repeater’s repeat of that same packet:
 
 Companion View
-![](images/MeshCore_HeardRepeats_MultiHop.png){ width="300" }
+   ![](images/MeshCore_HeardRepeats_MultiHop.png){ width="300" }
 
 Diagram Explanation
-![](images/MeshCore_HeardRepeats_MultiHop.png){ width="300" }
+   ![](images/MeshCore_HeardRepeats_MultiHop.png){ width="300" }

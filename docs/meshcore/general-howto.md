@@ -11,11 +11,11 @@ These instructions use the MeshCore mobile app and apply to both new and experie
 
 2. Tap the **Signal** icon.  
 
-      ![](images/MeshCore_GetContactID1.png){ width="300" }
+   ![](images/MeshCore_GetContactID1.png){ width="300" }
 
 3. Tap **Advert → To Clipboard**.  
 
-      ![](images/MeshCore_GetContactID2.png){ width="300" }
+   ![](images/MeshCore_GetContactID2.png){ width="300" }
 
 4. Paste your contact URL anywhere you want to share it.
 
@@ -27,11 +27,11 @@ These instructions use the MeshCore mobile app and apply to both new and experie
 
 2. Tap the **three dots**.  
 
-      ![](images/MeshCore_AddContactMan1.png){ width="300" }
+   ![](images/MeshCore_AddContactMan1.png){ width="300" }
 
 3. Tap **Add Contact**.  
 
-      ![](images/MeshCore_AddContactMan2.png){ width="300" }
+   ![](images/MeshCore_AddContactMan2.png){ width="300" }
 
 4. Tap **Import from Clipboard Link**.  
 

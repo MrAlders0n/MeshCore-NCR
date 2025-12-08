@@ -124,5 +124,5 @@ Below is an example of what a direct heard packet looks like:
 ### Multi Hop Heard Packet
 
 Below is an example of what it looks like when one repeater hears your message, repeats it, and then your companion hears a second repeater’s repeat of that same packet:
-   ![Companion View](MeshCore_HeardRepeats_Step4_2Repeat.png){ width="300" }
+   ![Companion View](images/MeshCore_HeardRepeats_Step4_2Repeat.png){ width="300" }
    ![Diagram Explanation](images/MeshCore_HeardRepeats_MultiHop.png){ width="300" }

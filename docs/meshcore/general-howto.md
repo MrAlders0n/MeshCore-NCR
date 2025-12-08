@@ -78,3 +78,55 @@ These instructions use the MeshCore mobile app and apply to both new and experie
 
 8. View the results.  
    ![](images/MeshCore_TraceRoute2Hop3.png){ width="300" }
+
+---
+
+## Heard Repeats
+
+In the MeshCore app you can generally see if a repeater heard you message you sent in a channel. 
+
+When you send a message out, the packet travels through the airwaves, hits a nearby repeater and it then repeats your packet out. If your companion is within receiving range and receives the repeated packet it will be counted as a "heard repeat". There are cases where your companion could miss the heard repeat. Example of this are:
+
+-Your packet makes it to the repeater, but the repeated packet dosnt make it back to your companion. 
+-If you're using a 1w companion, and the repeater that hears you is a 0.3w. You can send further then it. so while your packet may make it to the repeater, when it repeats your packet its possible youre too far away to receive it.
+
+## How to Check Heard Repeats
+
+1. Send a message in the public channel.
+2. When the app shows **Heard X repeats** under your message, press and hold the message.
+![](images/MeshCore_HeardRepeats_Step1.png){ width="300" }
+3. Tap **Heard Repeats**.
+![](images/MeshCore_HeardRepeats_Step2.png){ width="300" }
+4. You’ll see a list of every repeater your companion heard repeating that packet.
+![](images/MeshCore_HeardRepeats_Step3.png){ width="300" }
+5. Tap a repeater in the list to view the path the repeated packet took to get back to you. See Below for the types of repeats you will see.
+
+**Notes**
+
+- A repeater may show up as a **direct hop** if it is close to you.  
+- You may also see a **distant repeater** listed. This happens when that repeater hears your packet shortly after another one and your companion hears both repeats.  
+- Your companion must hear the repeater *directly* for it to appear in this list.
+
+---
+
+## Direct Heard Packet
+
+Below is an example of what a direct heard packet looks like:
+
+Companion View
+![](images/MeshCore_HeardRepeats_Direct.png){ width="300" }
+
+Diagram Explanation
+![](images/MeshCore_HeardRepeats_Direct.png){ width="300" }
+
+---
+
+## Multi Hop Heard Packet
+
+Below is an example of what it looks like when one repeater hears your message, repeats it, and then your companion hears a second repeater’s repeat of that same packet:
+
+Companion View
+![](images/MeshCore_HeardRepeats_MultiHop.png){ width="300" }
+
+Diagram Explanation
+![](images/MeshCore_HeardRepeats_MultiHop.png){ width="300" }

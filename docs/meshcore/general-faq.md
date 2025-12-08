@@ -25,6 +25,26 @@ MeshCore uses a **repeater-driven advert system** for discovery (not a prerequis
 
 ---
 
+## Repeater Neighbours
+
+Repeaters build their neighbour list over time based on the **direct adverts** they receive.  
+Keep in mind that having a neighbour listed doesn’t guarantee a **bidirectional** link.  
+It’s common for a repeater to transmit down a path that it can’t reliably receive from.  
+This is one of the reasons MeshCore allows repeaters to route messages through the entire mesh rather than relying only on direct neighbours.
+
+**Example:**
+
+Repeater 1 Neighbours:
+  - Repeater 2
+  - Repeater 3
+
+Repeater 2 Neighbours:
+  - Repeater 3
+
+Repeater 3 Neighbours:
+  - Repeater 1
+
+---
 ## The Public Channel
 
 All Ottawa MeshCore nodes have access to the **public channel**.

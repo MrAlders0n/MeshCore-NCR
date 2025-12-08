@@ -35,14 +35,17 @@ This is one of the reasons MeshCore allows repeaters to route messages through t
 **Example:**
 
 Repeater 1 Neighbours:
-  - Repeater 2
-  - Repeater 3
+
+- Repeater 2
+- Repeater 3
 
 Repeater 2 Neighbours:
-  - Repeater 3
+
+- Repeater 3
 
 Repeater 3 Neighbours:
-  - Repeater 1
+
+- Repeater 1
 
 ---
 ## The Public Channel

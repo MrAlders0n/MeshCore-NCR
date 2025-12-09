@@ -377,6 +377,12 @@ repeaters:
     location: "TBD"
     contact: "meshcore://contact/add?name=Quinterra&public_key=dada483f48fd3ea65dc0b7b531d09e4b814d32d42a601bc3193527eaf745c014&type=2"
 
+  - id: "3d"
+    name: "RAK4631 Repeater"
+    antenna: "TBD"
+    location: "Gatineau"
+    contact: "meshcore://contact/add?name=RAK4631%20Repeater&public_key=3d55109a5082a2018625e6d974fdfb8e24d3e8bee190a40357b69518f36bdf8d&type=2"
+
   - id: "0f"
     name: "Rax-Basement-R1"
     antenna: "TBD"

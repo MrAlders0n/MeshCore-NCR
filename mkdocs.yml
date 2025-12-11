@@ -4,6 +4,11 @@ nav:
   - Home: index.md
   - Community:
       - Getting Involved: community/getting-involved.md
+  - Deployment:
+      - Coverage: deployment/coverage.md
+      - Repeaters: deployment/repeaters.md
+      - Repeater Showcase: deployment/repeaters-showcase.md
+      - Wanted Repeater Locations: deployment/repeater-wanted-locations.md
   - Recommended Hardware:
       - Antenna: hardware/recommended-antenna.md
       - Companion Nodes: hardware/recommended-companions.md
@@ -17,11 +22,6 @@ nav:
           - MeshCore How-To: meshcore/general-howto.md
           - MeshCore Roles: meshcore/general-meshcore-roles.md
           - MeshCore Frequency Settings: meshcore/general-frequency-settings.md
-      - Ottawa Deployment:
-          - Coverage: meshcore/ottawa-coverage.md
-          - Repeaters: meshcore/ottawa-repeaters.md
-          - Repeater Showcase: meshcore/ottawa-repeaters-showcase.md
-          - Wanted Repeater Locations: meshcore/ottawa-repeater-wanted-locations.md
       - Configuration:
           - Flashing a Companion: meshcore/flash-companion.md
           - Flashing a Repeater: meshcore/flash-repeater.md
@@ -32,11 +32,9 @@ nav:
           - Packet Capture · Overview: meshcore/packet-capture-overview.md
           - Packet Capture · Companion Listener: meshcore/packet-capture-companion-listener.md
           - Packet Capture · Standalone Repeater Listener: meshcore/packet-capture-standalone-repeater.md
-
   - Meshtastic:
       - Getting Started: meshtastic/getting-started.md
       - Frequency Settings: meshtastic/frequency-settings.md
-
   - Resources:
       - Useful Links: resources/useful-links.md
 

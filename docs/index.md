@@ -4,7 +4,7 @@
 
 ## About the Community
 
-We’re a community of hobbyists, builders, and experimenters collaborating to build a decentralized long-range communications network across the National Capital Region in Eastern Ontario and Western Quebec.
+We’re a community of hobbyists, builders, and experimenters collaborating to build a decentralized long-range communications network across Canada's National Capital Region (NCR) in Eastern Ontario and Western Quebec.
 
 **MeshCore** runs on top of LoRa radios.  
 LoRa (Long Range) is a low-power, long-distance radio modulation ideal for community networks, sensors, emergency use, and experimentation.

@@ -12,7 +12,7 @@ nav:
       - Repeaters: deployment/repeaters.md
       - Repeater Showcase: deployment/repeaters-showcase.md
       - Wanted Repeater Locations: deployment/repeater-wanted-locations.md
-  - Recommended Hardware:
+  - Hardware:
       - Antenna: hardware/recommended-antenna.md
       - Companion Nodes: hardware/recommended-companions.md
       - Repeater Nodes:

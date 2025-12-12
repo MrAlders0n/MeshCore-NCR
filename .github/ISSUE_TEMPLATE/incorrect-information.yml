@@ -26,15 +26,6 @@ body:
       required: true
 
   - type: textarea
-    id: evidence
-    attributes:
-      label: Evidence / sources
-      description: Provide references, logs, outputs, or authoritative sources.
-      placeholder: "Meshcore spec sheet, config dump, or upstream docs link."
-    validations:
-      required: true
-
-  - type: textarea
     id: correction
     attributes:
       label: Correct information
@@ -42,12 +33,12 @@ body:
       placeholder: "MeshCore companions do not repeat packets."
     validations:
       required: true
-
+      
   - type: textarea
-    id: impact
+    id: evidence
     attributes:
-      label: Impact
-      description: Describe how this misinfo affects deployments or readers.
-      placeholder: "Misleading; Security expectations; failed compatibility."
+      label: Evidence / sources
+      description: Provide references, logs, outputs, or authoritative sources.
+      placeholder: "Meshcore spec sheet, config dump, or upstream docs link."
     validations:
       required: true

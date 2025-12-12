@@ -1,10 +1,9 @@
 
 name: 🛰️ Repeater Deployment Update
-description: Log additions, changes, maintenance, or decommissions related to Ottawa Mesh repeaters.
-title: "[Repeater] <site / node / change summary>"
+description: Add, update, or decommission a repeater for the Ottawa Mesh.
+title: "[Repeater] <Add | Update | Decommission>: <Identifier / Name>"
 labels:
   - deployment
-  - area:docs
   - repeaters
   - needs-triage
 assignees: []
@@ -12,139 +11,73 @@ body:
   - type: markdown
     attributes:
       value: |
-        **Target page:** https://ottawamesh.ca/deployment/repeaters/
-        Use this form to report changes for repeater nodes only (install, upgrade, config change, maintenance, decommission, link health).
+        Use this form to **add**, **update**, or **decommission** a repeater entry that appears on:
+        https://ottawamesh.ca/deployment/repeaters/
 
-  - type: input
-    id: date
-    attributes:
-      label: Date of change
-      placeholder: "YYYY-MM-DD"
-    validations:
-      required: true
-
-  - type: input
-    id: location
-    attributes:
-      label: Location / site
-      description: Neighborhood and site descriptor. Avoid exact GPS unless required (privacy-first).
-      placeholder: "Centretown rooftop A"
-    validations:
-      required: true
-
-  - type: input
-    id: repeater_id
-    attributes:
-      label: Repeater ID / name (if known)
-      description: Existing ID or new identifier used in docs (e.g., RPT-012).
-      placeholder: "RPT-012"
-    validations:
-      required: false
+        **Mandatory fields**: Identifier, Repeater Name, Antenna, Location / Height, MeshCore Contact URL
 
   - type: dropdown
     id: change_type
     attributes:
       label: Change type
+      description: Select the action being performed.
       options:
-        - New repeater installed
-        - Repeater upgraded
-        - Repeater decommissioned
-        - Config change
-        - Link health issue
-        - Maintenance / inspection
-        - Other
+        - Add new repeater
+        - Update existing repeater
+        - Decommission repeater
     validations:
       required: true
 
-  - type: textarea
-    id: hardware
+  - type: input
+    id: identifier
     attributes:
-      label: Hardware / antenna
-      description: Router model, antenna type/gain, mounts, cable runs.
-      placeholder: |
-        - Router: GL.iNet AR750
-        - Antenna: 8 dBi panel
-        - Mount: chimney strap
-        - Cable: 5m coax
+      label: Identifier
+      description: Repeater ID (e.g., "01", "0A").
+      placeholder: "01"
     validations:
       required: true
 
-  - type: textarea
-    id: firmware
+  - type: input
+    id: repeater_name
     attributes:
-      label: Firmware / software versions
-      description: Include versions for router firmware and any mesh-related software (e.g., NCRI/MeshCore components).
-      placeholder: |
-        - Firmware: OpenWrt 23.05.3
-        - Software: NCRI vX.Y (if applicable)
+      label: Repeater Name
+      description: The canonical name used.
+      placeholder: "MrAlders0n_R1"
     validations:
       required: true
 
-  - type: textarea
-    id: config
+  - type: input
+    id: antenna
     attributes:
-      label: Config deltas
-      description: Summarize the configuration changes applied.
-      placeholder: |
-        - SSID: ottawa-mesh
-        - Channel: 6 (2.4 GHz) / 36 (5 GHz)
-        - TX power: 20 dBm
-        - VLANs: ...
-    validations:
-      required: false
-
-  - type: textarea
-    id: link_metrics
-    attributes:
-      label: Link metrics / health
-      description: RSSI/SNR, throughput, latency, packet loss, neighbor list, hop count.
-      placeholder: |
-        - RSSI/SNR: -65 dBm / 28 dB
-        - Throughput: 85 Mbps (TCP)
-        - Latency: 7 ms avg
-        - Packet loss: <1%
-        - Neighbors: RPT-003, GW-001
-    validations:
-      required: false
-
-  - type: textarea
-    id: actions_taken
-    attributes:
-      label: Actions taken
-      description: Installation steps, tuning, maintenance performed, and outcomes.
-      placeholder: |
-        - Mounted panel antenna facing NE
-        - Adjusted channel width 20 MHz -> 40 MHz
-        - Rebooted, validated neighbor discovery
+      label: Antenna
+      description: Model and gain (include brand if known).
+      placeholder: "Alfa 5.8 dBi"
     validations:
       required: true
 
-  - type: textarea
-    id: evidence
+  - type: input
+    id: location_height
     attributes:
-      label: Evidence / attachments
-      description: Photos, logs, metrics snapshots, config diffs. Drag-and-drop supported.
+      label: Location / Height
+      description: Neighborhood / elevation above ground level (AGL).
+      placeholder: "Barrhaven / 10M AGL"
     validations:
-      required: false
+      required: true
 
-  - type: checkboxes
-    id: followup
+  - type: input
+    id: meshcore_contact
     attributes:
-      label: Follow-up required
-      options:
-        - label: Needs documentation update on https://ottawamesh.ca/deployment/repeaters/
-        - label: Needs troubleshooting
-        - label: Needs approval
+      label: MeshCore Contact URL
+      description: Paste the full meshcore URI beginning with "meshcore://".
+      placeholder: "meshcore://110303924e8b3371fe78f8d2889d58e2fa060d029e2a42e66c5bf3d4ec26b1babf6fcafc9a0b0fad68d0ba95e56d0943fc5b3fd1ebbe10d4d46478cbf48688969cc6e3e671d818b0a5ed92de7201613b73dc65fded1ff8e7ac524dd42702b0d2a077b5044d51cd1b0192397ab5027b0880fb416c785231"
+    validations:
+      required: true
 
-  - type: textarea
-    id: doc_notes
+  # Optional but useful fields (remove or keep as needed)
+  - type: input
+    id: date
     attributes:
-      label: Notes for updating the repeaters page (optional)
-      description: Provide text that can be copy-pasted into the repeaters page (e.g., a new entry or update details).
-      placeholder: |
-        - New entry for RPT-012:
-          - Location: Centretown rooftop A
-          - Hardware: ...
-          - Link metrics: ...
+      label: Date of change
+      placeholder: "YYYY-MM-DD"
     validations:
       required: false

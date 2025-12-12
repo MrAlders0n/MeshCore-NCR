@@ -50,15 +50,6 @@ body:
     validations:
       required: false
 
-  - type: textarea
-    id: impact
-    attributes:
-      label: Impact / severity
-      description: How badly does this affect readers?
-      placeholder: "Users cannot complete installation without this step."
-    validations:
-      required: true
-
   - type: checkboxes
     id: scope
     attributes:
